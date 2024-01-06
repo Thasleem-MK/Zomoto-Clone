@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Okra, Helvetica, sans-serif;
+}
+.Header{
+    background: #f3d;
+    height: 570px;
+    width: 100%;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-size: 100%;
+    background-position-x: 0px;
+    background-position-y: -86px;
+    float: left;
+}
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+.nav-bar-list{
+    list-style: none;
+    margin-left: 805px;
+    margin-top: 25px;
+}
+.nav-bar-list-elements{
+    text-decoration: none;
+    color:white;
+    float: left;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 40px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.Header-image{
+    height: 60px;
+    width: 100%;
+    float: left;
+    margin-top: 163px;
+}
+.Zomato-logo{
+    height: 100%;
+    width: 284px;
+    margin-left: 617px;
+    
+}
+.Header-text{
+    width: 100%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    margin-top: -5px;
+}
+.text-box{
+    width: 100%;
+    height: 280px;
+    float: left;
+}
+.text-box-heading{
+    height: 80px;
+    font-size: 39.5px;
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 505px;
+    word-spacing: 5px;
+}
+.indian-flag{
+    width: 55px;
+    height: 43%;
+    margin-top: 17px;
+    margin-left: 21px;
+    opacity: 1;
+}
+.text-box-text{
+    width: 100%;
+    height: 150px;
+    float: left;
+    font-size: 20px;
+    opacity: 0.5;
+    line-height: 10px;
+    padding-top: 2px;
+    margin-top: 2px;
+    font-weight: 100;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    height: 65px;
+    width: 345px;
+    border-radius: 7px;
+    border: 0.5px;
+    border-style: groove;
+    border-color: rgb(193, 188, 188);
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.Main-body{
+    height: 2985px;
+    width: 1310px;
+    float: left;
+    padding-left: 195px;
+    margin-top: -15px;
+}
+.boxes{
+    height: 100%;
+    width: 90%;
+    float: left;
+    font-size: 20px;
+}
+.link:hover{
+    box-shadow: 3px 3px lightgrey;
+}
+.boxes-text{
+    font-weight: 100;
+    word-spacing: 4px;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.arrow{
+    height: 17px;
+    width: 25px;
+    float: left;
+    margin-top: -40px;
+    margin-left: 310px;
+}
+.Footer{
+    width: 1310px;
+    height: 490px;
+    float: left;
+    background: rgb(248, 248, 248);
+    padding-left: 215px;
+}
+.Footer-top{
+    height: 400px;
+    width: 1075px   ;
+    float: left;
+    border-bottom: 1px solid lightgrey;
+}
+.Footer-nav-bar{
+    width: 100%;
+    height: 86px;
+    float: left;
+    /* border: 1px solid; */
+}
+.Footer-Zomato-image{
+    height: 28px;
+    width: 132px;
+    margin-top: 58px;
+    float: left;
+
+}
+.country-selection{
+    float: left;
+    height: 35px;
+    width: 90px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-top: 48px;
+}
+.country-selection-options{
+    border: none;
+    margin-top: 2px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 17px;
+    background-color: rgb(248, 248, 248);
+    outline: none;
+    height: 32px;
+    width: 95%;
+    text-align: center;
+}
+.language-selection{
+    float: left;
+    height: 35px;
+    width: 133px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 940px;
+    margin-top: -38px;
+
+}
+.language-selection-options{
+    border: none;
+    margin-top: 2px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 15px;
+    background-color: rgb(248, 248, 248);
+    outline: none;
+    height: 31px;
+    width: 133px;
+    text-align: center;
+}
+.About-Zomato{
+    width: 190px;
+    height: 250px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+}
+.Zomaverse{
+    width: 150px;
+    height: 250px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.For-Restaurants{
+    width: 200px;
+    height: 110px;
+    float: left;
+    /* background-color: aquamarine; */
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.For-Enterprises{
+    width: 200px;
+    height: 125px;
+    float: left;
+    /* background-color: lightblue; */
+    margin-left: -200px;
+    margin-top: 140px ;
+}
+.Learn-More{
+    width: 180px;
+    height: 250px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    /* background-color: lightsalmon; */
+}
+.Footer-Headings{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight:400;
+    color: black;
+}
+.Footer-Elements{
+    text-decoration: none;
+    color: rgb(162, 157, 157);
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.Footer-Elements:hover{
+    color: black;
+}
+.P-Properties{
+    line-height: 10px;
+}
+.Footer-Bottom{
+    height: 90px;
+    width: 1075px;
+    float: left;
+}
+.Footer-Bottom-Text{
+    font-size: 13.5px;
+    word-spacing: 0.35px;
+    margin-top: 25px;
+    color: #4F4F4F;
+    line-height: 15px;
+}
+.Social-links{
+    width: 190px;
+    height: 250px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+}
+.Social-links-frame{
+    height: 24px;
+    width: 24px;
+    background-color: #0f1440;
+    float: left;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin-right: 5.5px;
+    margin-top: 2px;
+    border: none;
+}
+.Social-Media-Icons{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    float: left;
+}
+.App-Play-Stores{
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+}
